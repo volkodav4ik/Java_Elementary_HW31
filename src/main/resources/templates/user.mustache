@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div>
+    <table border=1 cellpadding=5 style="background-color:#FFFFE0;">
+        <tr style="background-color:#FFD700;">
+            <td><b>User id</b></td>
+            <td><b>Username</b></td>
+            <td><b>email</b></td>
+        </tr>
+        {{#users}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{name}}</td>
+                <td>{{email}}</td>
+            </tr>
+        {{/users}}
+    </table>
+</div>
+</body>
+</html>
